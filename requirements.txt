@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+pyaroma==0.1
+fastparquet==2024.2.0
+pandas==1.5.3
+langchain-community==0.2.19
+sentence-transformers==3.2.1
+torch==2.4.1
+torchvision==0.19.1
+faiss-cpu==1.8.0.post1
+accelerate==1.0.1
+Levenshtein==0.25.1
+sacrebleu==2.5.1
+rouge_score==0.1.2
+scikit-fuzzy==0.5.0
