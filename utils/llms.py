@@ -4,7 +4,7 @@ class RagLLM1:
     def __init__(self):
         self.device = "cuda"
         self.model = AutoModelForCausalLM.from_pretrained("./LLM/meta-llama/meta-llama-3-8b-instruct",
-                                                          torch_dtype=torch.bfloat16, device_map="auto").to("cuda")
+                                                          torch_dtype=torch.bfloat16).to("cuda")
         self.tokenizer = AutoTokenizer.from_pretrained("./LLM/meta-llama/meta-llama-3-8b-instruct")
         self.tokenizer.add_special_tokens({'pad_token': '[PAD]'})
         self.model.resize_token_embeddings(len(self.tokenizer))
