@@ -94,6 +94,8 @@
 
 # Usage Instructions
 
+  Note: The official websites of some datasets and models may undergo updates, which could lead to changes in directory names (for example, changes in capitalization), potentially causing errors when running our project. Therefore, please store the downloaded data and models according to the directory structure described in README.md. If you still encounter issues when running the code, simply update the local paths in the error messages to match your actual storage locations, and the project should then run successfully.
+
   ## Step 0. Preprocess the dataset
   For HealthCareMagic-100k, please place the HealthCareMagic-100k dataset file `HealthCareMagic-100k-en.jsonl`(downloaded from the website https://huggingface.co/datasets/RafaelMPereira/HealthCareMagic-100k-Chat-Format-en/tree/main) into the `.\DatasetsRaw\HealthCareMagic` folder. 
 
