@@ -1,0 +1,14 @@
+
+.idea/
+*.iml
+*.ipr
+*.iws
+# 虚拟环境
+.venv/
+venv/
+env/
+
+
+# Python 编译文件
+__pycache__/
+*.pyc
